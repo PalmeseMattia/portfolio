@@ -3,6 +3,8 @@ import { Button, Container, Navbar, Stack, Card } from 'react-bootstrap'
 import './App.css'
 import Logo from './assets/logo.png'
 import Emoji from './assets/emoji.png'
+import Ethereum from './assets/ethereum.png'
+import ReactPic from './assets/react.png'
 
 export default function App() {
   return (
@@ -23,13 +25,19 @@ export default function App() {
         <img src={Emoji}/>
       </div>
 
-      <h1 className='text-secondary display-6 ms-2'>Tech i'm currently learning or using:</h1>
-      <Container>
-        <Stack>
-          <Card>
-            ok
+      <h1 className='text-secondary display-6 ms-2 mt-5'>Tech i'm currently learning or using:</h1>
+      <Container className='d-flex justify-content-center'>
+        <div className='cards--div'>
+          <Card style={{width: '20rem'}}>
+            <Card.Img variant='top' src={ReactPic}/>
+            <Card.Title>React</Card.Title>
           </Card>
-        </Stack>
+
+          <Card style={{width: '20rem'}}>
+            <Card.Img variant='top' src={Ethereum}/>
+            <Card.Title>Ethereum</Card.Title>
+          </Card>
+        </div>
       </Container>
     </div>
     
