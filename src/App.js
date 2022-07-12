@@ -26,6 +26,8 @@ export default function App() {
       </div>
 
       <h1 className='text-secondary display-6 ms-2 mt-5'>Tech i'm currently learning or using:</h1>
+      
+      {/* SKILLS CONTAINER */}
       <Container className='d-flex justify-content-center'>
         <div className='cards--div'>
           <Card style={{width: '20rem'}}>
@@ -39,6 +41,11 @@ export default function App() {
           </Card>
         </div>
       </Container>
+
+      {/* PROJECTS COMPONENT */}
+      <div className='projects--div'>
+      <h1 className='text-white display-6 ms-2 mt-5'>My projects</h1>
+      </div>
     </div>
     
   )
