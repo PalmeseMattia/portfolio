@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button, Container, Navbar, Stack, Card } from 'react-bootstrap'
+import { Button, Container, Navbar, Card } from 'react-bootstrap'
 import './App.css'
 import Logo from './assets/logo.png'
 import Emoji from './assets/emoji.png'
-import Ethereum from './assets/ethereum.png'
+import Next from './assets/next.png'
 import ReactPic from './assets/react.png'
 
 export default function App() {
@@ -36,8 +36,8 @@ export default function App() {
           </Card>
 
           <Card style={{width: '20rem'}}>
-            <Card.Img variant='top' src={Ethereum}/>
-            <Card.Title>Ethereum</Card.Title>
+            <Card.Img variant='top' src={Next}/>
+            <Card.Title>Next.js</Card.Title>
           </Card>
         </div>
       </Container>
