@@ -23,7 +23,8 @@
     margin-bottom: 10vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 4em;
+    align-items: center;
 }
 
 .projects--div{

@@ -25,20 +25,22 @@ export default function App() {
         <img src={Emoji}/>
       </div>
 
-      <h1 className='text-secondary display-6 ms-2 mt-5'>Tech i'm currently learning or using:</h1>
+      {/* ABOUT ME SECTION */}
+      <div className='main--aboutme'>
+        <h1 className='text-secondary display-6 ms-2 mt-5'>About me:</h1>
+        <h4 className='text-center m-1'>Hi, my name is Palmese Davide Mattia and i'm a web developer from Italy 🇮🇹.</h4>
+        <h4 className='text-center m-1'>My passion started in 2015 thanks to my Programming teacher in high school and the famous tv series Mr. Robot 🤖.</h4>
+        <h4 className='text-center m-1'>I worked as a freelancer and now i'm looking for a full time job. Please go ahead and look at my portfolio</h4>
+      </div>
+
+
       
       {/* SKILLS CONTAINER */}
+      <h1 className='text-secondary display-6 ms-2 mt-5'>Tech i'm currently learning or using:</h1>
       <Container className='d-flex justify-content-center'>
         <div className='cards--div'>
-          <Card style={{width: '20rem'}}>
-            <Card.Img variant='top' src={ReactPic}/>
-            <Card.Title>React</Card.Title>
-          </Card>
-
-          <Card style={{width: '20rem'}}>
-            <Card.Img variant='top' src={Next}/>
-            <Card.Title>Next.js</Card.Title>
-          </Card>
+          <img src={ReactPic} width={300}/>
+          <img src={Next} width={300}/>
         </div>
       </Container>
 
