@@ -33,7 +33,7 @@
     background-color: #9493D4;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .main--content{
         display: flex;
         flex-direction: column;
