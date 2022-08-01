@@ -28,9 +28,11 @@ export default function App() {
       {/* ABOUT ME SECTION */}
       <div className='main--aboutme'>
         <h1 className='text-secondary display-6 ms-2 mt-5'>About me:</h1>
-        <h4 className='text-center m-1'>Hi, my name is Palmese Davide Mattia and i'm a web developer from Italy 🇮🇹.</h4>
-        <h4 className='text-center m-1'>My passion started in 2015 thanks to my Programming teacher in high school and the famous tv series Mr. Robot 🤖.</h4>
-        <h4 className='text-center m-1'>I worked as a freelancer and now i'm looking for a full time job. Please go ahead and look at my portfolio</h4>
+        <h5 className='m-1'>
+          Hi, my name is Palmese Davide Mattia and i'm a web developer from Italy 🇮🇹.<br/>
+          My passion started in 2015 thanks to my Programming teacher in high school and the famous tv series Mr. Robot 🤖.<br/>
+          I worked as a freelancer and now i'm looking for a full time job. Please go ahead and look at my portfolio
+        </h5>
       </div>
 
 
@@ -45,9 +47,18 @@ export default function App() {
       </Container>
 
       {/* PROJECTS COMPONENT */}
-      <div className='projects--div'>
-      <h1 className='text-white display-6 ms-2 mt-5'>My projects</h1>
+      <div className='second--page'>
+        <h1 className='display-6 ms-2 mt-5'>My projects</h1>
+        <div className='projects--div'>
+          
+          <Card>
+            <Card.Title>
+              Narcissus
+            </Card.Title>
+          </Card>
+        </div>
       </div>
+    
     </div>
     
   )

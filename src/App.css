@@ -31,6 +31,8 @@
     height: 100vh;
     width: 100vw;
     background-color: #9493D4;
+    display: flex;
+    align-items: center;
 }
 
 @media only screen and (max-width: 700px) {
